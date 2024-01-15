@@ -10,7 +10,7 @@ producer.on('ready', () => {
 });
 
 producer.on('error', (error) => {
-    console.error('Error from Kafka producer:', error);
+    console.error('Error from Kafka producer:', error); 
 });
 
 module.exports = {
